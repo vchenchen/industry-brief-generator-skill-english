@@ -31,8 +31,13 @@ body {
 .top, .hero, .section-label, .quick, .story-grid, .mainline, .footer { position: relative; z-index: 1; }
 
 .top { display: flex; align-items: center; justify-content: space-between; padding-bottom: 22px; border-bottom: 3px solid #162125; }
-.brand { display: flex; align-items: center; gap: 16px; font-size: 25px; font-weight: 850; letter-spacing: 0; }
-.mark { display: grid; place-items: center; width: 57px; height: 57px; border: 3px solid #162125; background: var(--accent, #d76550); font-size: 27px; font-weight: 950; }
+.brand { display: flex; align-items: center; gap: 16px; letter-spacing: 0; }
+.brand-copy { display: flex; flex-direction: column; gap: 2px; }
+.brand-copy strong { font-size: 27px; line-height: 1; font-weight: 950; }
+.brand-copy small { font-size: 14px; line-height: 1.15; color: #4f5b5d; font-weight: 750; }
+.mark { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 62px; height: 62px; border: 3px solid #162125; background: #fffdf8; color: #162125; line-height: 1; }
+.mark b { font-size: 15px; font-weight: 950; }
+.mark small { margin-top: 3px; padding: 2px 4px; background: var(--accent, #d76550); font-size: 11px; font-weight: 950; }
 .date { font-size: 19px; font-weight: 800; color: #4f5b5d; }
 
 .hero { display: grid; grid-template-columns: 1fr 228px; gap: 30px; align-items: end; margin: 40px 0 30px; }
