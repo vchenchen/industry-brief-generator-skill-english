@@ -1,5 +1,5 @@
 ---
-name: industry-brief-generator
+name: industry-brief-generator-en
 description: Create reusable, candidate-first industry briefings from current overseas market sources. Use when the user wants an industry news briefing, daily or weekly industry digest, trend candidate pool, internal brief, newsletter copy, social copy, customer update, or poster-style brief for any industry; especially when the user provides or should provide industry, target market, focus topics, excluded content, and final use. Also use when adapting the workflow to a new industry, creating an industry YAML config, or handling an unsupported or low-information industry without fabricating sources.
 ---
 
