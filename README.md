@@ -71,7 +71,7 @@ If public information is insufficient, it stops and asks for better sources, a n
 This repository uses the Codex repository-scope skill layout:
 
 ```text
-.agents/skills/industry-brief-generator-en/
+.agents/skills/industry-brief-generator-english/
 ```
 
 Clone this repository and start Codex from the repository root. Codex should detect the skill automatically.
@@ -80,7 +80,7 @@ You can also install it from GitHub:
 
 ```bash
 python3 /Users/vchen/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/vchenchen/industry-brief-generator-skill-en/tree/main/.agents/skills/industry-brief-generator-en
+  --url https://github.com/vchenchen/industry-brief-generator-skill-en/tree/main/.agents/skills/industry-brief-generator-english
 ```
 
 If the skill does not appear, restart Codex.
@@ -88,7 +88,7 @@ If the skill does not appear, restart Codex.
 ## Quick Start
 
 ```text
-Use $industry-brief-generator-en.
+Use $industry-brief-generator-english.
 
 Industry: office supplies
 Target market: global
@@ -129,7 +129,7 @@ Preferred output language:
 ## Repository Structure
 
 ```text
-.agents/skills/industry-brief-generator-en/
+.agents/skills/industry-brief-generator-english/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
