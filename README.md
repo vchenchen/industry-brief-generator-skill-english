@@ -126,22 +126,6 @@ Preferred output language:
 - commercial real estate
 - office supplies
 
-## Promotion Kit
-
-Launch copy: [docs/promotion-copy-en.md](docs/promotion-copy-en.md)
-
-Suggested channels:
-
-- GitHub
-- LinkedIn
-- OpenAI/Codex communities
-- Product Hunt later
-- Hacker News later
-
-## Roadmap
-
-Use the Skill first to validate adoption. The next product step is packaging it as a Codex Plugin with a smoother install experience, icon, default prompts, and demos.
-
 ## Repository Structure
 
 ```text
